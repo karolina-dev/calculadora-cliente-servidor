@@ -1,3 +1,4 @@
+KAROLINA SEGURA PERDOMO - JONATHAN DARIO SIERRA GALINDO
 # Calculadora Cliente-Servidor
   Permite realizar operaciones matemáticas básicas a través de un sistema cliente-servidor en Python a través de sockets,esta calculadora es una aplicación de ejemplo.
 
