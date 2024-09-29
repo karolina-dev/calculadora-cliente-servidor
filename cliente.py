@@ -1,3 +1,5 @@
+import socket
+
 def enviar_expresion(expresion):
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     client_socket.connect(('localhost', 8081))
