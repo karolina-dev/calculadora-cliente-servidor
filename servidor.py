@@ -2,10 +2,10 @@ import socket
 
 # Configuración del servidor
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server_socket.bind(('localhost', 123456789))
+server_socket.bind(('localhost', 8081))
 server_socket.listen(5)
 
-print("Servidor escuchando en el puerto 123456...")
+print("Servidor escuchando en el puerto 8081...")
 
 def calcular(expresion):
     try:
